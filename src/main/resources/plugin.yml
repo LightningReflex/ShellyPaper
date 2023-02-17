@@ -1,0 +1,11 @@
+name: ShellyPaper
+version: '${project.version}'
+main: me.lightningreflex.shellypaper.ShellyPaper
+authors: [ LightningReflex ]
+description: Run shell commands from in game
+commands:
+  shell:
+    description: Run shell commands from in game
+    aliases: [sh]
+    usage: /<command>
+    permission: shellypaper.shell
